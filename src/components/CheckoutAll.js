@@ -8,7 +8,7 @@ const CheckoutAll = ({ className }) => {
     const { shoppingCard } = useCart()
 
     useEffect(() => {
-        setStripe( window.Stripe( process.env.STRIPE_PUBLIC_KEY ) )
+        setStripe( window.Stripe("pk_test_51LHESJLayso1tFCmeGPIwi3mfSKPh7DAkuQUHKgeHcLDfhVGCDUHPxzCz0tBh9j3EOYQfnNCeaTN5wJXtC5P6K4T00L6nNfLDT") )
     }, [])
 
 
